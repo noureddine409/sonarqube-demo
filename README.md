@@ -62,5 +62,34 @@ Azure facture l'utilisation des machines virtuelles en cours d'exécution. Veuil
 
 <img width="941" alt="aa" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/618f1ed1-75d8-4bd4-ae0b-476db20950ff">
 
-   
+## Installer Sonarqube
+1. Mettez à jour votre liste de packages et mettez à niveau les packages existants.
+
+```sh
+# Update your package list and upgrade existing packages
+sudo apt update
+sudo apt upgrade
+```
+2. installer java runtime environment et unzip
+
+  ```sh
+sudo apt install default-jre
+java -version
+sudo apt install unzip
+```
+
+3. installer et configurer sonarqube
+
+   ```sh
+adduser sonarqube
+sudo su - sonarqube
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+unzip *
+chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
+cd sonarqube-9.4.0.54424/bin/linux-x86-64/
+./sonar.sh start
+   ```
+
+Vous pouvez désormais accéder au serveur SonarQube sur http://<adresse-ip>:9000.
 
