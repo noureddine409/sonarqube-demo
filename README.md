@@ -8,22 +8,23 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 2. Une compréhension de base des services Azure et des machines virtuelles.
 
 ## Step 1: Create an Azure VM
-<img width="960" alt="Capture" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/f6b0ab70-0761-4787-a752-3060336fc3ed">
-<img width="523" alt="Capture2" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/6e19775e-b120-4d28-8f54-84c429d7ac4f">
-<img width="627" alt="Capture3" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/fc8c894f-872a-42e7-b144-14c335883228">
-<img width="626" alt="Capture4" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/f1b1b143-7b4a-48e6-b156-a2289e819632">
-<img width="665" alt="Capture5" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/f1d19b3b-f8be-4486-b5d0-c0cd974e47eb">
-<img width="657" alt="Capture6" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/52ecd591-b013-4efd-ab48-35e02b3f33d4">
-<img width="659" alt="Capture7" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/452f36ab-80de-44e8-8eb9-4bae2190b0ae">
-<img width="689" alt="Capture8" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/3f576437-3c44-405d-bf71-0ec8f317a65b">
-<img width="825" alt="Capture9" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/8416b47e-5154-45fe-8328-18ce13f958e2">
-<img width="427" alt="Capture10" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/e44b0733-d74d-4a65-814c-0ff480044970">
-<img width="948" alt="Capture11" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/a60e79d7-f330-40b7-819f-bf22a04f2de1">
-<img width="954" alt="Capture12" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/6a071c5e-8f2c-4a88-9e2d-dbf0b91e9653">
-<img width="387" alt="Capture13" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/67b5bf9a-f2a0-4fd1-84bf-1b1f10e861c8">
-<img width="426" alt="Capture14" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2fda3cdd-32ec-4105-93e9-e6aced0c763f">
-<img width="422" alt="Capture15" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/fec36c90-1cec-466d-a5c7-34e5d5d286ac">
+<img width="960" alt="Capture" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/b7a95024-6e5e-4b7f-a61c-757195b7cb74">
+<img width="523" alt="Capture2" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/e161973f-c99d-4610-bdb3-9365481c9e76">
+<img width="627" alt="Capture3" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/ccb2611d-5a5b-4268-9def-b59b83df037d">
+<img width="626" alt="Capture4" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/612b2ab5-fab2-4ddb-9a85-bb8bf9cda458">
 
+<img width="665" alt="Capture5" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/ee67442d-4ed6-4d8e-becc-f6b3b19e00db">
+<img width="657" alt="Capture6" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/50a6dfe3-6d8f-4450-928d-3e4902b86f4e">
+<img width="659" alt="Capture7" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/bb00bb90-c5f4-41cd-82d7-5298a2c3ea15">
+
+<img width="689" alt="Capture8" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/0dddfa5b-3b50-46b8-bf86-6682f3a96177">
+<img width="825" alt="Capture9" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/f4d16dce-75a6-47bb-8dce-b94a8982127d">
+<img width="427" alt="Capture10" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/bc1c7a5d-c812-449b-8e96-e759063401e6">
+<img width="948" alt="Capture11" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/a500b045-d1d1-48a8-874c-2dc54c8509bb">
+<img width="954" alt="Capture12" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/118e09d8-a4f7-487a-9d7c-6c01ed454f0b">
+<img width="387" alt="Capture13" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/04e2c99f-0a5a-43d9-a364-282ae4d96e4f">
+<img width="426" alt="Capture14" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2c5de9b2-e353-40c1-8fb6-8ab26529ecb1">
+<img width="422" alt="Capture15" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2fa932c7-648c-4a04-8ba5-58018ba9ef01">
 
 # Log in to Azure
 az login
