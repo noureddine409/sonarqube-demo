@@ -37,3 +37,10 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 <img width="426" alt="Capture14" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2c5de9b2-e353-40c1-8fb6-8ab26529ecb1">
 
 <img width="422" alt="Capture15" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2fa932c7-648c-4a04-8ba5-58018ba9ef01">
+
+## :warning: Attention : Arrêtez votre machine virtuelle Azure après le laboratoire
+
+Azure facture l'utilisation des machines virtuelles en cours d'exécution. Veuillez vous assurer d'arrêter votre machine virtuelle Azure lorsque vous avez terminé pour éviter des frais inutiles.
+
+:fire: **Note** :
+
