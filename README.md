@@ -1,11 +1,11 @@
-# Installing SonarQube on Azure VM
+# Installation de SonarQube dans Azure VM
 
-This guide will walk you through the process of creating an Azure Virtual Machine (VM) and installing SonarQube on it. SonarQube is an open-source platform that helps you continuously inspect and improve the quality of your code.
+Ce guide vous guidera à travers le processus de création d'une machine virtuelle (VM) Azure et de l'installation de SonarQube dessus. SonarQube est une plateforme open source qui vous permet d'inspecter en continu et d'améliorer la qualité de votre code.
 
-## Prerequisites
+## Prérequis
 
-1. Azure account: You'll need an active Azure account to create a VM.
-2. A basic understanding of Azure services and virtual machines.
+1. Compte Azure : Vous aurez besoin d'un compte Azure actif pour créer une machine virtuelle.
+2. Une compréhension de base des services Azure et des machines virtuelles.
 
 ## Step 1: Create an Azure VM
 
