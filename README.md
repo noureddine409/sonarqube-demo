@@ -28,6 +28,8 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 
 <img width="427" alt="Capture10" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/bc1c7a5d-c812-449b-8e96-e759063401e6">
 
+## :warning: Attention : Vérifiez si la clé est téléchargée et gardez-la en sécurité, car nous allons l'utiliser pour vous connecter à la machine virtuelle en utilisant SSH.
+
 <img width="948" alt="Capture11" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/a500b045-d1d1-48a8-874c-2dc54c8509bb">
 
 <img width="954" alt="Capture12" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/118e09d8-a4f7-487a-9d7c-6c01ed454f0b">
