@@ -5,7 +5,8 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 ## Prérequis
 
 1. Compte Azure : Vous aurez besoin d'un compte Azure actif pour créer une machine virtuelle.
-2. Une compréhension de base des services Azure et des machines virtuelles.
+   vous pouvez obtenir un compte gratuit avec 100$ on inscrit avec [github student pack](https://education.github.com/pack)
+3. Une compréhension de base des services Azure et des machines virtuelles.
 
 ## Step 1: Creation de Azure VM
 <img width="960" alt="Capture" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/b7a95024-6e5e-4b7f-a61c-757195b7cb74">
