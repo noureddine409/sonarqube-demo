@@ -34,7 +34,7 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 
 <img width="954" alt="Capture12" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/118e09d8-a4f7-487a-9d7c-6c01ed454f0b">
 
-<img width="387" alt="Capture13" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/04e2c99f-0a5a-43d9-a364-282ae4d96e4f">
+<img width="500" alt="Capture13" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/04e2c99f-0a5a-43d9-a364-282ae4d96e4f">
 
 <img width="426" alt="Capture14" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2c5de9b2-e353-40c1-8fb6-8ab26529ecb1">
 
