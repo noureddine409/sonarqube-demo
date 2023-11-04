@@ -80,7 +80,7 @@ sudo apt install unzip
 
 3. installer et configurer sonarqube
 
-   ```sh
+  ```sh
 adduser sonarqube
 sudo su - sonarqube
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
@@ -90,6 +90,7 @@ chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
 cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ./sonar.sh start
 ```
+
 
 Vous pouvez désormais accéder au serveur SonarQube sur http://<adresse-ip>:9000.
 
