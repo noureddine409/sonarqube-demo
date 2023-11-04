@@ -7,7 +7,7 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 1. Compte Azure : Vous aurez besoin d'un compte Azure actif pour créer une machine virtuelle.
 2. Une compréhension de base des services Azure et des machines virtuelles.
 
-## Step 1: Create an Azure VM
+## Step 1: Creation de Azure VM
 <img width="960" alt="Capture" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/b7a95024-6e5e-4b7f-a61c-757195b7cb74">
 
 <img width="523" alt="Capture2" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/e161973f-c99d-4610-bdb3-9365481c9e76">
@@ -38,9 +38,29 @@ Ce guide vous guidera à travers le processus de création d'une machine virtuel
 
 <img width="422" alt="Capture15" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/2fa932c7-648c-4a04-8ba5-58018ba9ef01">
 
-## :warning: Attention : Arrêtez votre machine virtuelle Azure après le laboratoire
+## :warning: Attention : Arrêtez votre machine virtuelle Azure après que vous avez terminé.
 
 Azure facture l'utilisation des machines virtuelles en cours d'exécution. Veuillez vous assurer d'arrêter votre machine virtuelle Azure lorsque vous avez terminé pour éviter des frais inutiles.
 
-:fire: **Note** :
+## Connecter a votre azure VM utilisant ssh
+
+1. Ouvrez un terminal sur votre ordinateur local.
+
+2. Utilisez la commande suivante pour sécuriser votre fichier PEM que vous avez conservé après la création de votre machine virtuelle Azure. Assurez-vous que seuls vous et l'administrateur pouvez le lire. Remplacez votre-clé.pem par le nom de votre fichier PEM 
+
+   ```sh
+   chmod 600 sonarqube-server_key.pem.pem
+   ```
+
+3. Connectez-vous à la machine virtuelle en utilisant la commande ssh. Remplacez votre-clé.pem, adresse-IP, et utilisateur par les valeurs appropriées.
+
+   ```sh
+   ssh -i chemin-vers-la-clé/sonarqube-server_key.pem azureuser@Address-IP-Public
+   ```
+
+   vous trouver l'adress ip public ici
+
+   <img width="941" alt="aa" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/618f1ed1-75d8-4bd4-ae0b-476db20950ff">
+
+   
 
