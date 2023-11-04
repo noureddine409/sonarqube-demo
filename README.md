@@ -51,7 +51,7 @@ Azure facture l'utilisation des machines virtuelles en cours d'exécution. Veuil
 2. Utilisez la commande suivante pour sécuriser votre fichier PEM que vous avez conservé après la création de votre machine virtuelle Azure. Assurez-vous que seuls vous et l'administrateur pouvez le lire. Remplacez votre-clé.pem par le nom de votre fichier PEM 
 
    ```sh
-   chmod 600 sonarqube-server_key.pem.pem
+   chmod 600 sonarqube-server_key.pem
    ```
 
 3. Connectez-vous à la machine virtuelle en utilisant la commande ssh. Remplacez votre-clé.pem, adresse-IP, et utilisateur par les valeurs appropriées.
