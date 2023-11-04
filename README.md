@@ -92,5 +92,5 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ```
 
 
-Vous pouvez désormais accéder au serveur SonarQube sur http://<adresse-ip>:9000.
+Vous pouvez désormais accéder au serveur SonarQube sur http://votre-address-ip-public:9000.
 
