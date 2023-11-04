@@ -60,7 +60,7 @@ Azure facture l'utilisation des machines virtuelles en cours d'exécution. Veuil
 
    vous trouver l'adress ip public ici
 
-   <img width="941" alt="aa" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/618f1ed1-75d8-4bd4-ae0b-476db20950ff">
+<img width="941" alt="aa" src="https://github.com/noureddine409/sonarqube-demo/assets/83149531/618f1ed1-75d8-4bd4-ae0b-476db20950ff">
 
    
 
